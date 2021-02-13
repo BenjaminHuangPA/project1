@@ -12,6 +12,7 @@ class AV:
 
     def __init__(self, last_date = None):
         print("Hello world!")
+        print("Hello world 2")
         self.key = config.get_alphavantage_key()
         self.last_date = last_date
 
